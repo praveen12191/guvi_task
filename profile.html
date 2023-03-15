@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/profile.css">
+        <title>Profile</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dst/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU\auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	    <script src="js/profile.js"></script>
+    </head>
+    
+    <body>
+        <div id="top">
+                    <div class="card">
+                        <img class="img-account-profile rounded-circle mb-2" src="http://bootdey.com/img/Content/avatar/avatar1.png" alt="">
+                        <br>
+                        <button class="btn" type="button">Upload new image</button>
+                    </div>
+            <br>
+            <form class="form" action="register" method="POST">
+                <lable>Name</lable><br>
+                <br>
+                
+                <input class="form1" id="name" type="text" name="name"></br>
+                <br>
+                <h1></h1>
+                <lable>Email</lable><br>
+                <br>
+                <input class="form1" type="email" id="email" required></br>
+                <br>
+                <lable>DOB</lable><br>
+                <br>
+                <input class="form1" type="date" id="dob"  required></br>
+                <br>
+                <lable>Mobile No</lable>
+                <br>
+                <input class="form1" type="tel" if="phone" required></br>
+                <br>
+                <lable> Address </lable>
+                <br>
+                <input class="form1" type="text" id="address" required></br>
+                <br>
+                <input id="sub" type="submit" onclick="hit()" value="Save Profile">
+            <form>
+        </div>
+    </body>
+</html>
